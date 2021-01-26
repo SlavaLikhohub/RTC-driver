@@ -1,0 +1,75 @@
+/ # date -s "2020-01-26 13:28:00"
+Sun Jan 26 13:28:00 UTC 2020
+/ # dae
+-/bin/sh: dae: not found
+/ # date
+Sun Jan 26 13:28:04 UTC 2020
+/ # date
+Sun Jan 26 13:28:09 UTC 2020
+/ # hwclock -w -f /dev/rtc0
+[ 7742.434619] rtc_driver: ++ds1307x_set_time
+[ 7742.434635] rtc_driver: Sec: 20
+[ 7742.442361] rtc_driver: Min: 28
+[ 7742.445647] rtc_driver: Hour: 13
+[ 7742.449049] rtc_driver: Day: 26
+[ 7742.452336] rtc_driver: Month: 0
+[ 7742.455712] rtc_driver: Year: 120
+[ 7742.460201] rtc_driver: ++ds1307x_read
+[ 7742.461244] rtc_driver: Sec: 20
+[ 7742.468523] rtc_driver: Min: 28
+[ 7742.471809] rtc_driver: Hour: 13
+[ 7742.475184] rtc_driver: Day: 26
+[ 7742.478490] rtc_driver: Month: 0
+[ 7742.481865] rtc_driver: Year: 120
+/ # hwclock -r -f /dev/rtc0
+[ 7763.766536] rtc_driver: ++ds1307x_read
+[ 7763.767696] rtc_driver: Sec: 41
+[ 7763.774918] rtc_driver: Min: 28
+[ 7763.778246] rtc_driver: Hour: 13
+[ 7763.781622] rtc_driver: Day: 26
+[ 7763.784905] rtc_driver: Month: 0
+[ 7763.788303] rtc_driver: Year: 120
+Sun Jan 26 13:28:41 2020  0.000000 seconds
+/ # hwclock -r -f /dev/rtc0
+[ 7769.468141] rtc_driver: ++ds1307x_read
+[ 7769.469257] rtc_driver: Sec: 47
+[ 7769.476478] rtc_driver: Min: 28
+[ 7769.479818] rtc_driver: Hour: 13
+[ 7769.483194] rtc_driver: Day: 26
+[ 7769.486477] rtc_driver: Month: 0
+[ 7769.489873] rtc_driver: Year: 120
+Sun Jan 26 13:28:47 2020  0.000000 seconds
+/ # hwclock -r -f /dev/rtc0
+[ 7772.320419] rtc_driver: ++ds1307x_read
+[ 7772.321567] rtc_driver: Sec: 49
+[ 7772.328870] rtc_driver: Min: 28
+[ 7772.332155] rtc_driver: Hour: 13
+[ 7772.335529] rtc_driver: Day: 26
+[ 7772.338836] rtc_driver: Month: 0
+[ 7772.342212] rtc_driver: Year: 120
+Sun Jan 26 13:28:49 2020  0.000000 seconds
+/ # hwclock -r -f /dev/rtc0
+[ 7773.746584] rtc_driver: ++ds1307x_read
+[ 7773.747693] rtc_driver: Sec: 51
+[ 7773.754914] rtc_driver: Min: 28
+[ 7773.758242] rtc_driver: Hour: 13
+[ 7773.761618] rtc_driver: Day: 26
+[ 7773.764901] rtc_driver: Month: 0
+[ 7773.768299] rtc_driver: Year: 120
+Sun Jan 26 13:28:51 2020  0.000000 seconds
+/ # hwclock -s -f /dev/rtc0
+[ 7788.040870] rtc_driver: ++ds1307x_read
+[ 7788.042021] rtc_driver: Sec: 5
+[ 7788.049239] rtc_driver: Min: 29
+[ 7788.052525] rtc_driver: Hour: 13
+[ 7788.055900] rtc_driver: Day: 26
+[ 7788.059211] rtc_driver: Month: 0
+[ 7788.062586] rtc_driver: Year: 120
+/ # date
+Sun Jan 26 13:29:08 UTC 2020
+/ # date
+Sun Jan 26 13:29:09 UTC 2020
+/ # date
+Sun Jan 26 13:29:12 UTC 2020
+/ # 
+
